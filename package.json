@@ -1,12 +1,22 @@
 {
-  "name": "dist",
+  "name": "ProctoringSDK",
   "version": "1.0.0",
   "description": "",
-  "main": "my-library.js",
+  "main": "ProctoringSDK.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "face-api.js": "^0.22.2"
+  }
 }
